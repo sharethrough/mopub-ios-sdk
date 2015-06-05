@@ -1147,6 +1147,12 @@
 		AEF9D6A6171CA8AD005AAA5A /* InMobiBannerCustomEventSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEF9D642171CA8AD005AAA5A /* InMobiBannerCustomEventSpec.mm */; };
 		AEF9D6A7171CA8AD005AAA5A /* MPMillennialBannerCustomEventSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEF9D644171CA8AD005AAA5A /* MPMillennialBannerCustomEventSpec.mm */; };
 		AEF9D6A8171CA8AD005AAA5A /* MPMillennialInterstitialCustomEventSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEF9D645171CA8AD005AAA5A /* MPMillennialInterstitialCustomEventSpec.mm */; };
+		B238F6301B1FA71F00847C50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF1F32B16EF9AD700273462 /* Foundation.framework */; };
+		B238F63D1B1FA73B00847C50 /* SharethroughNativeAdAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B238F6271B1FA40C00847C50 /* SharethroughNativeAdAdapter.m */; };
+		B238F63E1B1FA73B00847C50 /* SharethroughNativeCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B238F6251B1FA2F100847C50 /* SharethroughNativeCustomEvent.m */; };
+		B238F6401B1FAB9E00847C50 /* SharethroughSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B238F63F1B1FAB9E00847C50 /* SharethroughSDK.framework */; };
+		B238F6411B1FABB300847C50 /* SharethroughNativeAdAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = B238F6261B1FA40C00847C50 /* SharethroughNativeAdAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B238F6421B1FABB300847C50 /* SharethroughNativeCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B238F6241B1FA2F100847C50 /* SharethroughNativeCustomEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE99C30840C1121352950F9F /* FakeMRImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99CB810417AF3176B76680 /* FakeMRImageDownloader.m */; };
 		DE99C37382B478494A2816B3 /* MRImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99CB309DA4603F732CB909 /* MRImageDownloader.m */; };
 		DE99C5EC5E7569A2ED68A432 /* MRImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99CB309DA4603F732CB909 /* MRImageDownloader.m */; };
@@ -2091,6 +2097,12 @@
 		AEF9D642171CA8AD005AAA5A /* InMobiBannerCustomEventSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = InMobiBannerCustomEventSpec.mm; sourceTree = "<group>"; };
 		AEF9D644171CA8AD005AAA5A /* MPMillennialBannerCustomEventSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MPMillennialBannerCustomEventSpec.mm; sourceTree = "<group>"; };
 		AEF9D645171CA8AD005AAA5A /* MPMillennialInterstitialCustomEventSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MPMillennialInterstitialCustomEventSpec.mm; sourceTree = "<group>"; };
+		B238F6241B1FA2F100847C50 /* SharethroughNativeCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SharethroughNativeCustomEvent.h; path = Sharethrough/SharethroughNativeCustomEvent.h; sourceTree = "<group>"; };
+		B238F6251B1FA2F100847C50 /* SharethroughNativeCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SharethroughNativeCustomEvent.m; path = Sharethrough/SharethroughNativeCustomEvent.m; sourceTree = "<group>"; };
+		B238F6261B1FA40C00847C50 /* SharethroughNativeAdAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SharethroughNativeAdAdapter.h; path = Sharethrough/SharethroughNativeAdAdapter.h; sourceTree = "<group>"; };
+		B238F6271B1FA40C00847C50 /* SharethroughNativeAdAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SharethroughNativeAdAdapter.m; path = Sharethrough/SharethroughNativeAdAdapter.m; sourceTree = "<group>"; };
+		B238F63C1B1FA71F00847C50 /* libFacebookCustomEvent copy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFacebookCustomEvent copy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B238F63F1B1FAB9E00847C50 /* SharethroughSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharethroughSDK.framework; path = "../../iOS-SDK/built-framework/SharethroughSDK.framework"; sourceTree = "<group>"; };
 		DE99C48E617C5AB87FDCEBC1 /* FakeEKEventStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeEKEventStore.m; sourceTree = "<group>"; };
 		DE99C4F0695BABC8673BA634 /* MRImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRImageDownloader.h; sourceTree = "<group>"; };
 		DE99C5806C46906FBF58A26E /* FakeEKEventStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeEKEventStore.h; sourceTree = "<group>"; };
@@ -2272,6 +2284,15 @@
 				4A3CB2DA19749B0700160D24 /* libInMobi-4.4.1.a in Frameworks */,
 				464AF21B19196DD700EA523B /* MillennialMedia.framework in Frameworks */,
 				464F469D1817397900BB243C /* AdColony.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B238F62F1B1FA71F00847C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B238F6301B1FA71F00847C50 /* Foundation.framework in Frameworks */,
+				B238F6401B1FAB9E00847C50 /* SharethroughSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2754,6 +2775,7 @@
 		AEE38821171F4D300019601C /* AdNetworkSupport */ = {
 			isa = PBXGroup;
 			children = (
+				B238F6231B1FA2B200847C50 /* Sharethrough */,
 				4A95FE1B191ADC9A0025724A /* Facebook */,
 				464F46951817397900BB243C /* AdColony */,
 				AEE38822171F4D300019601C /* Chartboost */,
@@ -2930,6 +2952,7 @@
 				57CF55C719DE46E1000D29C5 /* libInMobiCustomEvent.a */,
 				57CF55FD19DE472B000D29C5 /* libVungleCustomEvent.a */,
 				57CF562619DE47B5000D29C5 /* libMillennialCustomEvent.a */,
+				B238F63C1B1FA71F00847C50 /* libFacebookCustomEvent copy.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3711,6 +3734,26 @@
 			path = Millennial;
 			sourceTree = "<group>";
 		};
+		B238F6231B1FA2B200847C50 /* Sharethrough */ = {
+			isa = PBXGroup;
+			children = (
+				B238F6261B1FA40C00847C50 /* SharethroughNativeAdAdapter.h */,
+				B238F6271B1FA40C00847C50 /* SharethroughNativeAdAdapter.m */,
+				B238F6241B1FA2F100847C50 /* SharethroughNativeCustomEvent.h */,
+				B238F6251B1FA2F100847C50 /* SharethroughNativeCustomEvent.m */,
+				B238F6281B1FA44F00847C50 /* SDK */,
+			);
+			name = Sharethrough;
+			sourceTree = "<group>";
+		};
+		B238F6281B1FA44F00847C50 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				B238F63F1B1FAB9E00847C50 /* SharethroughSDK.framework */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -3953,6 +3996,15 @@
 				57DC95E019E72C3B00BE93BA /* MPMillennialInterstitialCustomEvent.h in Headers */,
 				57CE76171AD72AD90003830D /* MillennialCustomEvent.h in Headers */,
 				57DC95DF19E72C3B00BE93BA /* MPMillennialBannerCustomEvent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B238F6321B1FA71F00847C50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B238F6411B1FABB300847C50 /* SharethroughNativeAdAdapter.h in Headers */,
+				B238F6421B1FABB300847C50 /* SharethroughNativeCustomEvent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4235,6 +4287,23 @@
 			productReference = AEF1F32816EF9AD700273462 /* libMoPubSDK+Networks.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		B238F6291B1FA71F00847C50 /* SharethroughCustomEvent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B238F6391B1FA71F00847C50 /* Build configuration list for PBXNativeTarget "SharethroughCustomEvent" */;
+			buildPhases = (
+				B238F62A1B1FA71F00847C50 /* Sources */,
+				B238F62F1B1FA71F00847C50 /* Frameworks */,
+				B238F6321B1FA71F00847C50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharethroughCustomEvent;
+			productName = FacebookCustomEvent;
+			productReference = B238F63C1B1FA71F00847C50 /* libFacebookCustomEvent copy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -4293,6 +4362,7 @@
 				57CF55C619DE46E1000D29C5 /* InMobiCustomEvent */,
 				57CF55FC19DE472B000D29C5 /* VungleCustomEvent */,
 				57CF562519DE47B5000D29C5 /* MillennialCustomEvent */,
+				B238F6291B1FA71F00847C50 /* SharethroughCustomEvent */,
 			);
 		};
 /* End PBXProject section */
@@ -5600,6 +5670,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B238F62A1B1FA71F00847C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B238F63D1B1FA73B00847C50 /* SharethroughNativeAdAdapter.m in Sources */,
+				B238F63E1B1FA73B00847C50 /* SharethroughNativeCustomEvent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -6703,6 +6782,75 @@
 			};
 			name = Release;
 		};
+		B238F63A1B1FA71F00847C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/FacebookCustomEvent.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdNetworkSupport/Facebook/SDK",
+					"/Users/markmeyer/workspace/iOS-SDK/built-framework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "FacebookCustomEvent copy";
+				PUBLIC_HEADERS_FOLDER_PATH = HeadersFacebook;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		B238F63B1B1FA71F00847C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/FacebookCustomEvent.dst;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdNetworkSupport/Facebook/SDK",
+					"/Users/markmeyer/workspace/iOS-SDK/built-framework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "FacebookCustomEvent copy";
+				PUBLIC_HEADERS_FOLDER_PATH = HeadersFacebook;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -6855,6 +7003,15 @@
 			buildConfigurations = (
 				AEF1F33716EF9AD700273462 /* Debug */,
 				AEF1F33816EF9AD700273462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B238F6391B1FA71F00847C50 /* Build configuration list for PBXNativeTarget "SharethroughCustomEvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B238F63A1B1FA71F00847C50 /* Debug */,
+				B238F63B1B1FA71F00847C50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
