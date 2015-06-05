@@ -27,7 +27,6 @@
     } else {
         [self.delegate nativeCustomEvent:self didFailToLoadAdWithError:[NSError errorWithDomain:MoPubNativeAdsSDKDomain code:MPNativeAdErrorInvalidServerResponse userInfo:nil]];
     }
-
 }
 
 #pragma mark - STRAdViewDelegate
